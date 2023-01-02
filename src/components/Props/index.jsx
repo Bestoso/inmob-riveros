@@ -30,7 +30,7 @@ export const Props = () => {
                                 <p className='location'>
                                     { prop.direccion }
                                 </p>
-                                <a href='#' target='_blank' className='button'>
+                                <a href={ prop.argenprop } target='_blank' className='button'>
                                     Ver mas
                                 </a>
                                 </div>
